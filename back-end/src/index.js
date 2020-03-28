@@ -6,7 +6,7 @@ const cors = require("cors");
 const PORT = process.env.PORT || 3333;
 
 // Require Initial.
-const Routes = require("./src/Routes");
+const Routes = require("./Routes");
 
 // Configução.
 app.use(cors());
